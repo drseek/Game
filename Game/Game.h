@@ -103,7 +103,7 @@ public:
             m_Results.emplace_back (std::move (result));
         }
 
-        m_GameResult = make_game_result (cbegin (m_Results), cend (m_Results));
+        m_GameResult = make_game_result (std::cbegin (m_Results), std::cend (m_Results));
         NotifyGame (m_GameResult.value ());
     }
 
