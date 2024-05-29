@@ -168,9 +168,6 @@
     <ClInclude Include="Score.h" />
     <ClInclude Include="Strategy.h" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="license" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
